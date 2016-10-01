@@ -22,16 +22,19 @@
 
 (def types-html ["text/html"])
 
-(defresource index []
-  :available-media-types types-html
-  :allowed-methods [:get]
-  :handle-ok (fn [_] index))
-
 (defn show [tpl & args]
   (apply str (apply tpl args)))
 
+(defn handle-index []
+  (let [sums (q/testsumby)
+        count (-> (q/testcount) first :count)
+        x (map :name sums)
+        y (map :sum sums)
+        data {"x" x, "y" y}]
+    (show tpl/index count data)))
+
 (defroutes app
-  (GET "/index.html" [] (show tpl/index (:count (first (q/testcount)))))
+  (GET "/index.html" [] (handle-index))
 
   ;;(context "/api" []
            ;; (POST "/users"

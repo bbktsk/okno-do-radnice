@@ -17,7 +17,8 @@
                  [yesql "0.5.3"]
                  [org.postgresql/postgresql "9.4.1211"]
                  [slingshot "0.12.2"]
-                 [liberator "0.14.1"]]
+                 [liberator "0.14.1"]
+                 [cheshire "5.6.3"]]
   :min-lein-version "2.0.0"
   :plugins [[environ/environ.lein "0.3.1"]]
   :hooks [environ.leiningen.hooks]
