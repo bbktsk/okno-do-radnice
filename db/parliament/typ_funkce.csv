@@ -1,0 +1,123 @@
+1,1,MÌstop¯edseda,Vice-chairman,2,2
+2,1,P¯edseda,Chairman,1,1
+4,2,OvÏ¯ovatel komise,Verifier of commission,5,3
+7,3,OvÏ¯ovatel v˝boru,Verifier of committee,20,3
+9,3,TajemnÌk - ovÏ¯ovatel v˝boru,Secretary - verifier of committee,10,3
+12,7,N·hradnÌk delegace,Alternate of delegation,6,0
+14,7,VedoucÌ delegace,Head of delegation,2,1
+15,5,P¯edseda,Chairperson,1,1
+16,11,MÌstop¯edseda,Vice-chairperson,2,2
+17,11,OvÏ¯ovatel,Verifier,5,3
+18,11,P¯edseda,President,1,1
+19,13,P¯edseda,Chairperson,1,1
+20,13,MÌstop¯edseda,Vice-chairperson,2,2
+22,29,MÌstop¯edseda,Vice-chairperson,2,2
+23,29,P¯edseda,Chairperson,1,1
+24,29,Zapisovatel v˝boru, ,5,0
+25,27,P¯edseda,Chairperson,1,1
+26,27,MÌstop¯edseda,Vice-chairperson,2,2
+27,27,Zapisovatel, ,40,0
+28,27,Po¯adatel, ,50,0
+29,24,P¯edseda, ,1,1
+30,24,MÌstop¯edseda, ,2,2
+31,24,Zapisovatel, ,10,0
+32,24,Po¯adatel, ,15,0
+33,33,P¯edseda,Chairperson,1,1
+34,33,MÌstop¯edseda,Vice-chairperson,2,2
+35,33,Zapisovatel,Secretary,10,0
+36,5,MÌstop¯edseda,Vice-chairperson,2,2
+37,15,Prezident, ,1,0
+38,15,Viceprezident, ,2,0
+90,74,Deleg·t, ,10,
+41,15,Z·stupce Ve¯ejnÈho ochr·nce pr·v, ,102,0
+42,15,ÿeditel, ,1,1
+89,42,»len, ,5,0
+91,74,N·hradnÌk, ,20,
+92,1,»len vedenÌ klubu, ,10,
+93,1,1. mÌstop¯edseda, ,4,2
+94,1,2. mÌstop¯edseda, ,5,2
+95,1,3. mÌstop¯edseda, ,6,2
+96,5,Ministr, ,201,
+52,5,Ministr pr·ce a soci·lnÌch vÏcÌ, ,108,0
+53,5,Ministr financÌ, ,104,0
+54,5,Ministr zahraniËnÌch vÏcÌ, ,114,0
+55,5,Ministr pro mÌstnÌ rozvoj, ,109,0
+56,5,Ministr kultury, ,106,0
+57,5,Ministr zemÏdÏlstvÌ, ,116,0
+58,5,Ministr zdravotnictvÌ, ,115,0
+59,5,Ministr pr˘myslu a obchodu, ,110,0
+60,5,Ministr vnitra, ,113,0
+61,5,Ministr ûivotnÌho prost¯edÌ, ,117,0
+62,5,Ministr spravedlnosti, ,112,0
+63,5,Ministr dopravy a spoj˘, ,102,0
+64,5,Ministr obrany, ,107,0
+65,5,Ministr ökolstvÌ: ml·deûe a tÏlov˝chovy, ,111,0
+66,40,P¯edseda,Chairperson,1,1
+67,40,PrvnÌ mÌstop¯edseda, ,2,2
+68,41,MÌstop¯edseda,Vice-chairperson,2,2
+69,5,»len vl·dy, ,200,0
+70,18,Prezident, ,1,0
+71,45,»len,Member,10,0
+72,45,N·hradnÌk, ,10,0
+98,7,N·hradnÌk, ,7,
+74,42,N·hradnÌk, ,10,0
+99,4,GaranËnÌ p¯edseda, ,1,1
+76,41,»len,Member,100,0
+77,20,P¯edseda,Chairperson,1,
+78,20,MÌstop¯edseda,Vice-chairperson,2,
+79,23,P¯edseda,Chairperson,1,1
+80,23,MÌstop¯edseda,Vice-chairperson,2,2
+81,26,P¯edseda,Chairperson,1,1
+82,26,MÌstop¯edseda,Vice-chairperson,2,2
+83,25,P¯edseda,Chairperson,1,1
+84,25,MÌstop¯edseda,Vice-chairperson,2,2
+85,57,P¯edseda,Chairperson,1,
+86,57,MÌstop¯edseda,Vice-chairperson,2,
+87,15,P¯edseda,Chairperson,1,1
+88,15,»len,Member,100,0
+100,15,FinanËnÌ arbitr, ,111,1
+101,15,Z·stupce finanËnÌho arbitra, ,112,
+102,13,»len,Member,30,
+103,13,Pozorovatel,Observer,50,
+104,5,Ministr dopravy, ,103,0
+105,5,Ministr informatiky, ,105,0
+106,77,Pozorovatel,Observer,20,
+107,77,N·hradnÌk, ,30,0
+108,78,P¯edseda,Chairman,1,1
+109,77,Poslanec,Member,10,
+110,1,Revizor, ,500,
+111,1,4. mÌstop¯edseda, ,7,2
+113,5,Ministr hospod·¯stvÌ, ,105,0
+114,1,5. mÌstop¯edseda, ,8,2
+115,3,1. mÌstop¯edseda, ,2,2
+116,3,2. mÌstop¯edseda, ,3,2
+117,82,»len, ,50,
+118,82,ÿeditel, ,30,
+119,82,P¯edseda, ,31,
+120,82,GuvernÈr, ,21,
+121,82,VrchnÌ ¯editel, ,41,
+122,82,ViceguvernÈr, ,29,
+123,82,VedoucÌ, ,44,
+124,82,»len bankovnÌ rady, ,42,
+125,84,InternÌ auditor,Internal Auditor,1000,0
+126,82,Inspektor, ,48,
+127,5,Ministr pro evropskÈ z·leûitosti, ,170,
+128,15,MÌstop¯edseda, ,10,2
+129,1,»len p¯edsednictva, ,20,0
+130,3,3. mÌstop¯edseda, ,4,2
+131,3,4. mÌstop¯edseda, ,5,2
+132,3,5. mÌstop¯edseda, ,6,2
+133,3,6. mÌstop¯edseda, ,7,2
+134,3,7. mÌstop¯edseda, ,8,2
+8,3,P¯edseda,Chairman,1,1
+11,4,P¯edseda,Chairman,2,1
+10,4,MÌstop¯edseda,Vice-chairman,3,2
+112,4,OvÏ¯ovatel, ,40,3
+6,3,MÌstop¯edseda,Vice-chairman,9,2
+5,2,P¯edseda,Chairman,1,1
+3,2,MÌstop¯edseda,Vice-chairman,2,2
+21,7,MÌstop¯edseda,Vice-chairman,3,2
+13,7,P¯edseda,Chairman,1,1
+97,7,»len, ,5,0
+40,15,Ve¯ejn˝ ochr·nce pr·v, ,101,0
+135,84,MÌstop¯edseda,Vice-chairman,10,2
