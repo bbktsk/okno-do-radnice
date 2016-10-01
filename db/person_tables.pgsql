@@ -83,7 +83,7 @@ CREATE TABLE poslanec (
 );
 
 CREATE TABLE pkgps (
-	id_poslanec	int, --	Members identifier, see MP: id_poslanec
+	id_poslanec int, --	Members identifier, see MP: id_poslanec
 	adresa text, --	Head offices, individual items are separated by a semicolon
 	sirka text, --	North latitude, WGS 84 format GG.AABBCCC, GG = grade AA - minutes, BB - seconds, CCC - thousandths of seconds
 	delka text --	East longitude, WGS 84 format GG.AABBCCC, GG = grade AA - minutes, BB - seconds, CCC - thousandths of seconds

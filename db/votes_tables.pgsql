@@ -8,7 +8,7 @@ CREATE TABLE hl_hlasovani(
     cislo   int, -- number of votes
     bod int, -- Item on the agenda of the meeting; if it is less than 1, then it is a procedural vote or a vote on points at the time of the vote should not be assigned a number.
     datum   date, -- Date of vote
-    čas timestamp, -- (hour to minute)  time to vote
+    čas time, -- (hour to minute)  time to vote
     pro int, -- Number of voters for
     proti   int, -- Number of voters against
     zdrzel  int, -- Number of voters abstained, ie. Pressed X
@@ -31,8 +31,8 @@ CREATE TABLE omluvy(
     id_organ    int, -- Identifier election period, refer to the authority: id_or
     id_poslanec int, -- Members identifier, see MP: id_poslanec
     den date, --    Date apology
-    datum_od  timestamp, --  (hour to minute) Start time apologies if null , then the apology to is null and is an apology for the whole meeting day.
-    datum_do  timestamp --  (hour to minute)  End time apologies if null , then the apology from them null and is an apology for the whole meeting day.
+    datum_od  time, --  (hour to minute) Start time apologies if null , then the apology to is null and is an apology for the whole meeting day.
+    datum_do  time --  (hour to minute)  End time apologies if null , then the apology from them null and is an apology for the whole meeting day.
 );
 
 CREATE TABLE  hl_check(
