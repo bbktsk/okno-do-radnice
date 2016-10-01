@@ -1,0 +1,6 @@
+{
+  "name": "Okno do radnice",
+  "description": "Okno do radnice",
+  "image": "heroku/clojure",
+  "addons": [ "heroku-postgresql" ]
+}
