@@ -5,3 +5,5 @@
 (defn db-spec
   []
   (env :database-url (str "postgres:///" (env :user))))
+
+(defqueries "odr/queries.sql" {:connection (db-spec)})
