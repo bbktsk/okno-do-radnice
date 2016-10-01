@@ -19,9 +19,6 @@
             [odr.templates :as tpl]
             [odr.queries :as q]))
 
-(defn db-spec
-  []
-  (env :database-url (str "postgres:///" (env :user))))
 
 (def types-html ["text/html"])
 

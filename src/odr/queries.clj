@@ -1,5 +1,7 @@
 (ns odr.queries
-  (:require [odr.web :as web]
-            [yesql.core :refer [defqueries]]))
+  (:require [yesql.core :refer [defqueries]]
+            [environ.core :refer [env]]))
 
-(defqueries "odr/queries.sql" {:connection (web/db-spec)})
+(defn db-spec
+  []
+  (env :database-url (str "postgres:///" (env :user))))
