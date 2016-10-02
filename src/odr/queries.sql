@@ -43,3 +43,18 @@ from
          group by id_poslanec) as sums
 where  sums.id_poslanec = osoby.id_osoba
 order by percentage;
+
+-- name: party-line
+
+select * from
+       (select foo.*,
+               rank()  over (partition by foo.id_hlasovani, foo.pohlavi order by count desc,vysledek desc) as r
+        from (select id_hlasovani, pohlavi, vysledek, count(id_poslanec)
+                     from hl_poslanec, osoby where hl_poslanec.id_poslanec = osoby.id_osoba and id_poslanec >= 10000
+                     group by vysledek, id_hlasovani, pohlavi
+                     order by id_hlasovani, pohlavi, vysledek)
+                     AS foo) as bar
+       where r=1;
+
+-- name: person-votes
+select jmeno, prijmeni, pohlavi, id_hlasovani, vysledek from osoby, hl_poslanec where osoby.id_osoba = hl_poslanec.id_poslanec and id_osoba >=10000;

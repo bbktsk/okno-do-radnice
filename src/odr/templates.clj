@@ -34,3 +34,8 @@
   [:#bad] (enlive/html-content (presence-table (reverse data)))
   [:#good] (enlive/html-content (presence-table data))
   )
+
+(deftemplate sheeps-mavericks "templates/sheeps-mavericks.html" [data]
+  [:#sheeps] (enlive/html-content (table->html (take 5 (reverse (sort-by last data)))))
+  [:#mavericks] (enlive/html-content (table->html (take 5 (sort-by last data))))
+  )

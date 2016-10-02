@@ -37,9 +37,14 @@
   (let [data (q/presence)]
     (show tpl/presence data)))
 
+(defn handle-s-m []
+  (let [data (q/votes-by-person)]
+    (show tpl/sheeps-mavericks data)))
+
 (defroutes app
   (GET "/index.html" [] (handle-index))
   (GET "/dash/presence.html" [] (handle-presence))
+  (GET "/dash/sheeps-mavericks.html" [] (handle-s-m))
 
   ;;(context "/api" []
            ;; (POST "/users"
