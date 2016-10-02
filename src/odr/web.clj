@@ -33,8 +33,13 @@
         data {"x" x, "y" y}]
     (show tpl/index count data)))
 
+(defn handle-presence []
+  (let [data (q/presence)]
+    (show tpl/presence data)))
+
 (defroutes app
   (GET "/index.html" [] (handle-index))
+  (GET "/dash/presence.html" [] (handle-presence))
 
   ;;(context "/api" []
            ;; (POST "/users"
