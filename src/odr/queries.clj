@@ -16,7 +16,7 @@
 (defqueries "odr/queries.sql" {:connection (db-spec)})
 
 (defn parse-party-line []
-  (let [pl (partyline)]
+  (let [pl (party-line)]
     (zipmap (map (fn [x] [(:id_hlasovani x) (:pohlavi x)])
                  pl)
             (map :vysledek pl))))
